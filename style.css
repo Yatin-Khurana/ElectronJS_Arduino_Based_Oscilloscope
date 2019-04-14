@@ -1,0 +1,102 @@
+h1{
+    text-align: Center;
+    color:white;
+    font-size: 0.8vw;
+    margin:0px;
+    padding-bottom: 15px;
+    -webkit-app-region:drag;
+}
+body{
+    background: #1f1f1f;
+    color:white;
+    border:2px #545454 solid;
+    padding:4px;
+    border-radius: 6px;
+    height: 96vh;
+    -ms-overflow-style: scrollbar;
+    --enable-transparent-visuals;
+    --disable-gpu;
+    margin: 0px;
+}
+h6{
+    color: white;
+}
+.plotwindow{
+
+    border: 2px white solid;
+    border-radius: 8px;
+    height:91vh;
+    width:73vw;
+}
+.plots{
+
+    height:91vh;
+    width:73vw;
+
+}
+html{
+    border-radius: 10px;
+    background-color:rgba(0,0,0,0);
+    --enable-transparent-visuals;
+    --disable-gpu;
+}
+#controlframe{
+
+    padding: 1vw;
+    width:21vw;
+    height: 86vh;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right:01%;
+    transform: translateY(-49%);
+    margin-left:fill;
+    margin-top:1vh;
+    padding-bottom: 4vh;
+    background: rgba(255,255,255,0.09);
+    border-radius: 6px;
+}
+.subsection h6{
+    margin:1px;
+    font-size:2vh;
+    display: inline-block;
+}
+#controlframe button{
+    height:2.4vh;
+    font-size: 1.7vh;
+}
+#controlframe input{
+    height:2.4vh;
+    font-size: 1.4vh;
+}
+.subsection p{
+    margin:4px;
+    font-size: 1.7vh;
+    display: inline-block;
+}
+#ch1_controls{
+    border:1px solid rgba(0, 0, 0, 0.49);
+    padding: 7px;
+}
+.subsection{
+    margin:2px;
+    padding:1vh;
+    background: rgba(0, 0, 0, 0.48);
+    border-radius: 6px;
+}
+#windowcontrols{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right:01%;
+    transform: translateY(-48vh);
+    margin-left:fill;
+}
+#windowcontrols button{
+    margin:0px;
+}
+#couplingfont{
+    font-size: 1.4vh;
+}
